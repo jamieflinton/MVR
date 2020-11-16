@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<meta property="og:url"           content="https://www.motorvehiclerepairs.com" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="MVR Motor Vehicle Repairs" />
+    <meta property="og:image"         content="" />
+    
+<title>Motor Vehicle Repairs</title>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet" type="text/css">
+<link rel="apple-touch-icon" href="images/apple.ico" />
+<link rel="icon" type="image/png" href="images/favicon.ico">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>  
+<script>
+    $(document).ready(function(){
+        $("#bdbutton").click(function(){
+            $("#bdbox").show (1);
+        });
+        $("#bdboxx, #bdbox").click(function(){
+            $("#bdbox").hide(1);
+        });
+    });
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="bdbox">
+            <div id="bdboxinfo">
+                <a id="bdboxx">x</a>
+                <img id="bdicon" src="/images/bdicon.svg">
+                <p class="bdtitle">24hr <br>Emergency Callout</p>
+                <p class="bdtext">We'll get your back on the road</p>
+                <a href="#" id="bdcall">+44740552075</a>
+
+            </div>
+        </div>
+        <div id="topbanner">
+                <a href="#" id="bdbutton">Broken Down?</a>
+            <div id="toplogo">
+                <img class="logo" src="/images/mvrlogo.svg" alt="MVR Logo">
+
+            </div>
+            <div id="topmap">
+                <iframe class="map" src="https://snazzymaps.com/embed/274153" height="100%" style="border:none;"></iframe>
+            </div>
+        </div>
+        <div id="bottombanner">
+            <div id="socialbox">
+
+            </div>
+        </div>
+        <div id="midleftmain">
+            <div id="contactbox">
+                <p id="ctitle">Rquest a Quote and Call Back</p>
+                <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+                    <script type="text/javascript">
+                    function ValidateForm(frm) {
+                    if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+                    if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+                    if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+                    if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+                    return true; }
+                    </script>
+                    <table class="contactform" cellpadding="8" cellspacing="0">
+                    <tr> <td>
+                    <input class="imput" name="Name" placeholder="Your Name" type="text" maxlength="60"/>
+                    </td> </tr> <tr>  <td>
+                    <input class="imput" name="PhoneNumber" placeholder="Contact Number" type="text" maxlength="43"/>
+                    </td> </tr> <tr><td>
+                    <input class="imput" name="FromEmailAddress" placeholder="Email Address" type="text" maxlength="90"/>
+                    </td> </tr> <tr> <td>
+                    <textarea class="imputc" name="Comments" placeholder="Message" rows="7" cols="40"></textarea>
+                    </td> </tr>
+                    </td> <td>
+                    <div style="display: none;"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
+                    <input class="cntsub" name="skip_Submit" type="submit" value="Submit" />
+                    <script src="https://www.100forms.com/js/FORMKEY:GWE6TULJPJNT/SEND:jamieflinton@gmail.com" type="text/javascript"></script>
+                    </td> </tr>
+                    </table>
+                    </form>
+
+            </div>
+        </div>
+        <div id="midrightmain">
+            <div id="contentbox">
+                <p class="ptitle">We Service, Repair, carry out Diagnostics
+                    Arrange MOTs and Fit New Tyres</p>
+                    
+                <div class="pcontent">
+                    <div class="concol">
+                        <h2>Local <b>Repair & Recovery</b> in Scarborough
+                    </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  </p>
+                    </div> 
+                    <div class="concol">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                        </p>
+
+                    </div>
+                    <div class="concol">  
+                        <p>sLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<footer>
+
+</footer>

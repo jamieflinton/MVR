@@ -1,0 +1,235 @@
+#wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #efefef;
+}
+#topbanner {
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+}
+#toplogo {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: #efefef;
+}
+.logo {
+    margin: auto;
+    height: 100%;
+    max-width: 90%;
+    display: grid;
+}
+#topmap {
+    background-color: darkgray;
+    width: 100%;
+    height: 100%;
+}
+
+#midleftmain {
+    width: 40%;
+    background-color: #efefef;
+    height: 100%;
+    float: left;
+}
+#contactbox {
+    height: 60vh;
+    margin: 40px;
+}
+#midrightmain {
+    float: right;
+    width: 60%;
+    height: 100%;
+    background-color: #efefef;
+}
+#contentbox {
+    height: 60vh;
+    margin: 40px;
+}
+#bottombanner {
+    width: 100%;
+    height: 7vh;
+    position: fixed;
+    background-color: #ffd900;
+    bottom: 0;
+}
+#bdbutton {
+    width: 130px;
+    background-color: #ffd900;
+    position: fixed;
+    z-index: 100;
+    padding-top: 10px;
+    padding-bottom: 12px; 
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+    filter: drop-shadow(0 0 0.25rem grey);
+}
+#bdbutton:hover {
+    background-color: black;
+    color: white;
+}
+.map {
+    width: 60%;
+    position: inherit;
+}
+table, tr, td {
+    border: 0px;
+    margin: auto;
+    font-family: 'Work Sans', sans-serif;
+    min-width: 80%;
+}
+.contactusform {
+    border: none;
+    padding: 10px;
+    width:100%;
+    max-width:550px;
+    border:0;
+    margin: auto;
+}
+.cntsub {
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 15px;
+    width: 40%;
+    height: 40px;
+    padding-left: 15px;
+}
+.cntsub:hover{
+    background-color: black;
+    color: white;
+}
+.imput {
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+}
+.imputc {
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 15px;
+    width: 100%;
+    height: 120px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+#ctitle {
+    font-family: 'Work Sans', sans-serif;
+    max-width: 310px;
+    font-weight: 700;
+    text-align: left;
+    font-size: 2rem;
+    margin: auto;
+}
+.ptitle {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    font-size: 3.5rem;
+    margin: auto;
+    line-height: 4rem;
+}
+
+.concol {
+    width: 33.33%;
+    font-family: 'Work Sans', sans-serif;
+    float: left;
+    margin-top: 20px;
+    font-size: 2rem;
+    padding-left: 4px;
+    padding-right: 4px;
+
+
+}
+.pcontent:after {
+    font-family: 'Work Sans', sans-serif;
+    content: "";
+    display: table;
+    clear: both;
+}
+h2 {
+    margin-top: 0!important;
+}
+#bdbox{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.75) ;
+    z-index: 1000;
+    position: fixed;
+}
+#bdboxinfo{
+    width: 350px;
+    height: 400px;
+    background-color: #efefef; 
+    margin: auto;
+    z-index: 1002;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: drop-shadow(0 0 2rem #282828);
+}
+#bdboxx{
+    color: black;
+    margin: auto;
+    font-size: 5rem;
+    font-weight: 700;
+    padding-left: 25px;
+    cursor: pointer;
+}
+#bdicon {
+    width: 14vh;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding-top: 10%;
+}
+.bdtitle {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 80px;
+    line-height: 3rem;
+}
+.bdtext {
+    text-align: left;
+    padding-left: 10%;
+    font-size: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    line-height: 3rem;
+}
+#bdcall {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+    background-color: #ffd900;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: black;
+}
+#bdcall:hover {
+    background-color: black;
+    color: white;
+}
